@@ -47,6 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Container(
         child: _widgetOptions.elementAt(_selectedIndex),
       ),
+
+      //bottom navigationBar
       bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
